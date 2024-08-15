@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signos>
+    <signo>
+        <dataInicio>21/03</dataInicio>
+        <dataFim>20/04</dataFim>
+        <signoNome>Áries</signoNome>
+        <descricao>Áries é o primeiro signo do zodíaco, conhecido por sua energia, coragem e iniciativa. Arianos são líderes naturais, sempre prontos para enfrentar novos desafios com entusiasmo.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/04</dataInicio>
+        <dataFim>20/05</dataFim>
+        <signoNome>Touro</signoNome>
+        <descricao>Touro é um signo de terra, marcado por sua determinação, estabilidade e apreciação pelo conforto material. Taurinos valorizam a segurança e são conhecidos por sua lealdade e paciência.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/05</dataInicio>
+        <dataFim>20/06</dataFim>
+        <signoNome>Gêmeos</signoNome>
+        <descricao>Gêmeos é um signo de ar, caracterizado por sua adaptabilidade, curiosidade e habilidade em se comunicar. Geminianos são versáteis e inteligentes, sempre buscando novos conhecimentos e experiências.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/06</dataInicio>
+        <dataFim>22/07</dataFim>
+        <signoNome>Câncer</signoNome>
+        <descricao>Câncer é um signo de água, conhecido por sua sensibilidade, intuição e cuidado com os outros. Cancerianos são profundamente emocionais e valorizam a família e o lar acima de tudo.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/07</dataInicio>
+        <dataFim>22/08</dataFim>
+        <signoNome>Leão</signoNome>
+        <descricao>Leão é um signo de fogo, associado à criatividade, paixão e generosidade. Leoninos são líderes naturais, com uma forte presença e um desejo de brilhar em tudo o que fazem.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/08</dataInicio>
+        <dataFim>22/09</dataFim>
+        <signoNome>Virgem</signoNome>
+        <descricao>Virgem é um signo de terra, marcado por sua praticidade, atenção aos detalhes e desejo de servir. Virginianos são organizados, meticulosos e valorizam a perfeição em todos os aspectos de sua vida.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/09</dataInicio>
+        <dataFim>22/10</dataFim>
+        <signoNome>Libra</signoNome>
+        <descricao>Libra é um signo de ar, associado à harmonia, justiça e diplomacia. Librianos buscam o equilíbrio em todas as coisas e são conhecidos por sua capacidade de mediar conflitos e valorizar a beleza.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/10</dataInicio>
+        <dataFim>21/11</dataFim>
+        <signoNome>Escorpião</signoNome>
+        <descricao>Escorpião é um signo de água, caracterizado por sua intensidade, paixão e mistério. Escorpianos são determinados e profundamente emocionais, com uma forte capacidade de regeneração.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>22/11</dataInicio>
+        <dataFim>21/12</dataFim>
+        <signoNome>Sagitário</signoNome>
+        <descricao>Sagitário é um signo de fogo, conhecido por seu amor pela liberdade, otimismo e espírito aventureiro. Sagitarianos são exploradores por natureza, sempre em busca de novas experiências e conhecimentos.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>22/12</dataInicio>
+        <dataFim>20/01</dataFim>
+        <signoNome>Capricórnio</signoNome>
+        <descricao>Capricórnio é um signo de terra, marcado por sua ambição, disciplina e paciência. Capricornianos são trabalhadores incansáveis, determinados a alcançar seus objetivos com perseverança.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/01</dataInicio>
+        <dataFim>18/02</dataFim>
+        <signoNome>Aquário</signoNome>
+        <descricao>Aquário é um signo de ar, associado à originalidade, inovação e visão de futuro. Aquarianos são progressistas e humanitários, sempre buscando novas maneiras de melhorar o mundo.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>19/02</dataInicio>
+        <dataFim>20/03</dataFim>
+        <signoNome>Peixes</signoNome>
+        <descricao>Peixes é um signo de água, caracterizado por sua sensibilidade, empatia e espiritualidade. Piscianos são sonhadores e intuitivos, com uma profunda conexão com o mundo emocional e o inconsciente.</descricao>
+    </signo>
+</signos>
