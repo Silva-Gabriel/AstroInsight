@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.background-image img {
+    max-width: 100%;
+    opacity: 85%;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    position: top;
+    opacity: 90%;
+    box-shadow: 4px 6px 8px black;
+}
+
+.form-select {
+    margin-right: 10px;
+}
