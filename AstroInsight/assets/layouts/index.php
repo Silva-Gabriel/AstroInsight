@@ -19,13 +19,13 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <ul class="nav nav-underline">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Página Inicial</a>
+                            <a class="nav-link" aria-current="page" href="index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Horóscopo</a>
+                            <a class="nav-link" aria-current="page" href="horoscope.php">Horóscopo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Ver Todos</a>
+                            <a class="nav-link" aria-current="page" href="all_signs.php">Ver Todos</a>
                         </li>
                     </ul>
                 </ul>
