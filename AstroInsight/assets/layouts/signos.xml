@@ -3,7 +3,8 @@
     <signo>
         <dataInicio>21/03</dataInicio>
         <dataFim>20/04</dataFim>
-        <signoNome>♈ Áries</signoNome>
+        <signoNome>Áries</signoNome>
+        <simbol>♈</simbol>
         <descricao>Áries é o primeiro signo do zodíaco, conhecido por sua energia, coragem e iniciativa. Arianos são líderes naturais, sempre prontos para enfrentar novos desafios com entusiasmo.</descricao>
 
         <horoscopeLoveJan>Este mês pode trazer surpresas no campo amoroso. Se estiver em um relacionamento, evite agir impulsivamente e procure fortalecer o vínculo com paciência e compreensão. Para os solteiros, novas paixões podem surgir de maneira inesperada.</horoscopeLoveJan>
@@ -97,7 +98,8 @@
     <signo>
         <dataInicio>21/04</dataInicio>
         <dataFim>20/05</dataFim>
-        <signoNome>♉ Touro</signoNome>
+        <signoNome>Touro</signoNome>
+        <simbol>♉</simbol>
         <descricao>Touro é um signo de terra, marcado por sua determinação, estabilidade e apreciação pelo conforto material. Taurinos valorizam a segurança e são conhecidos por sua lealdade e paciência.</descricao>
 
         <horoscopeLoveJan>No amor, este será um mês para investir no fortalecimento do relacionamento. Pequenos gestos e demonstrações de afeto farão a diferença. Para os solteiros, janeiro trará uma fase de introspecção antes de se abrir para novos relacionamentos.</horoscopeLoveJan>
@@ -190,7 +192,8 @@
     <signo>
         <dataInicio>21/05</dataInicio>
         <dataFim>20/06</dataFim>
-        <signoNome>♊ Gêmeos</signoNome>
+        <signoNome>Gêmeos</signoNome>
+        <simbol>♊</simbol>
         <descricao>Gêmeos é um signo de ar, caracterizado por sua adaptabilidade, curiosidade e habilidade em se comunicar. Geminianos são versáteis e inteligentes, sempre buscando novos conhecimentos e experiências.</descricao>
 
         <horoscopeLoveJan>Comunicação será a chave no amor. Se estiver em um relacionamento, busque conversar mais abertamente sobre seus sentimentos. Para os solteiros, novas conexões podem surgir de conversas casuais ou encontros inesperados.</horoscopeLoveJan>
@@ -283,7 +286,8 @@
     <signo>
         <dataInicio>21/06</dataInicio>
         <dataFim>22/07</dataFim>
-        <signoNome>♋ Câncer</signoNome>
+        <signoNome>Câncer</signoNome>
+        <simbol>♋</simbol>
         <descricao>Câncer é um signo de água, conhecido por sua sensibilidade, intuição e cuidado com os outros. Cancerianos são profundamente emocionais e valorizam a família e o lar acima de tudo.</descricao>
 
         <horoscopeLoveJan>Este será um mês de sensibilidade no campo amoroso. Se estiver em um relacionamento, aproveite para fortalecer o vínculo com seu parceiro por meio de conversas profundas e momentos íntimos. Para os solteiros, é hora de refletir sobre o que realmente deseja em um parceiro antes de iniciar algo novo.</horoscopeLoveJan>
@@ -376,7 +380,8 @@
     <signo>
         <dataInicio>23/07</dataInicio>
         <dataFim>22/08</dataFim>
-        <signoNome>♌ Leão</signoNome>
+        <signoNome>Leão</signoNome>
+        <simbol>♌</simbol>
         <descricao>Leão é um signo de fogo, associado à criatividade, paixão e generosidade. Leoninos são líderes naturais, com uma forte presença e um desejo de brilhar em tudo o que fazem.</descricao>
 
         <horoscopeLoveJan>A paixão estará no ar. Para os comprometidos, janeiro será um mês de grandes gestos românticos e surpresas agradáveis. Os solteiros terão oportunidades de novas paixões, mas lembre-se de não se deixar levar pelo orgulho ou pela necessidade de controle.</horoscopeLoveJan>
@@ -469,7 +474,8 @@
     <signo>
         <dataInicio>23/08</dataInicio>
         <dataFim>22/09</dataFim>
-        <signoNome>♍ Virgem</signoNome>
+        <signoNome>Virgem</signoNome>
+        <simbol>♍</simbol>
         <descricao>Virgem é um signo de terra, marcado por sua praticidade, atenção aos detalhes e desejo de servir. Virginianos são organizados, meticulosos e valorizam a perfeição em todos os aspectos de sua vida.</descricao>
 
         <horoscopeLoveJan>Janeiro pede mais atenção aos pequenos detalhes no relacionamento. Pequenos gestos e ações cotidianas farão a diferença no amor. Para os solteiros, este será um mês de reflexão e preparação antes de buscar um novo parceiro.</horoscopeLoveJan>
@@ -562,7 +568,8 @@
     <signo>
         <dataInicio>23/09</dataInicio>
         <dataFim>22/10</dataFim>
-        <signoNome>♎ Libra</signoNome>
+        <signoNome>Libra</signoNome>
+        <simbol>♎</simbol>
         <descricao>Libra é um signo de ar, associado à harmonia, justiça e diplomacia. Librianos buscam o equilíbrio em todas as coisas e são conhecidos por sua capacidade de mediar conflitos e valorizar a beleza.</descricao>
 
         <horoscopeLoveJan>O equilíbrio e a harmonia no amor serão essenciais para os librianos. Se estiver em um relacionamento, evite discussões e busque resolver conflitos de forma pacífica. Os solteiros poderão encontrar alguém que compartilha seus valores de harmonia e justiça.</horoscopeLoveJan>
@@ -655,7 +662,8 @@
     <signo>
         <dataInicio>23/10</dataInicio>
         <dataFim>21/11</dataFim>
-        <signoNome>♏ Escorpião</signoNome>
+        <signoNome>Escorpião</signoNome>
+        <simbol>♏</simbol>
         <descricao>Escorpião é um signo de água, caracterizado por sua intensidade, paixão e mistério. Escorpianos são determinados e profundamente emocionais, com uma forte capacidade de regeneração.</descricao>
 
         <horoscopeLoveJan>Este será um mês de intensidade emocional no amor. Para os comprometidos, questões profundas poderão surgir, exigindo conversas sinceras e honestidade. Os solteiros poderão se sentir atraídos por alguém de forma intensa e imediata, mas lembre-se de equilibrar razão e emoção.</horoscopeLoveJan>
@@ -749,6 +757,7 @@
         <dataInicio>22/11</dataInicio>
         <dataFim>21/12</dataFim>
         <signoNome>♐ Sagitário</signoNome>
+        <simbol>♐</simbol>
         <descricao>Sagitário é um signo de fogo, conhecido por seu amor pela liberdade, otimismo e espírito aventureiro. Sagitarianos são exploradores por natureza, sempre em busca de novas experiências e conhecimentos.</descricao>
 
         <horoscopeLoveJan>Liberdade será uma palavra importante para os sagitarianos neste mês. Se estiver em um relacionamento, busque equilibrar sua necessidade de independência com o compromisso. Para os solteiros, é um ótimo momento para flertar e explorar novos relacionamentos sem pressão. Cuidado apenas para não se envolver em algo superficial demais.</horoscopeLoveJan>
@@ -841,7 +850,8 @@
     <signo>
         <dataInicio>22/12</dataInicio>
         <dataFim>20/01</dataFim>
-        <signoNome>♑ Capricórnio</signoNome>
+        <signoNome>Capricórnio</signoNome>
+        <simbol>♑</simbol>
         <descricao>Capricórnio é um signo de terra, marcado por sua ambição, disciplina e paciência. Capricornianos são trabalhadores incansáveis, determinados a alcançar seus objetivos com perseverança.</descricao>
 
         <horoscopeLoveJan>Para os capricornianos, o amor em janeiro será focado em segurança e estabilidade. Se estiver em um relacionamento, o mês será ótimo para fortalecer os laços com conversas honestas sobre o futuro. Os solteiros devem focar em criar bases sólidas antes de se envolver emocionalmente.</horoscopeLoveJan>
@@ -934,7 +944,8 @@
     <signo>
         <dataInicio>21/01</dataInicio>
         <dataFim>18/02</dataFim>
-        <signoNome>♒ Aquário</signoNome>
+        <signoNome>Aquário</signoNome>
+        <simbol>♒</simbol>
         <descricao>Aquário é um signo de ar, associado à originalidade, inovação e visão de futuro. Aquarianos são progressistas e humanitários, sempre buscando novas maneiras de melhorar o mundo.</descricao>
 
         <horoscopeLoveJan>O amor estará repleto de novidades e surpresas para os aquarianos. Se estiver em um relacionamento, o mês será dinâmico, cheio de conversas estimulantes e novas descobertas. Para os solteiros, haverá chances de conhecer alguém inesperado, talvez por meio de atividades ou círculos sociais inovadores.</horoscopeLoveJan>
@@ -1027,7 +1038,8 @@
     <signo>
         <dataInicio>19/02</dataInicio>
         <dataFim>20/03</dataFim>
-        <signoNome>♓ Peixes</signoNome>
+        <signoNome>Peixes</signoNome>
+        <simbol>♓</simbol>
         <descricao>Peixes é um signo de água, caracterizado por sua sensibilidade, empatia e espiritualidade. Piscianos são sonhadores e intuitivos, com uma profunda conexão com o mundo emocional e o inconsciente.</descricao>
 
         <horoscopeLoveJan>Em janeiro, os piscianos sentirão uma forte conexão emocional no amor. Relacionamentos existentes podem se aprofundar, especialmente se houver abertura para conversas sobre sonhos e desejos compartilhados. Os solteiros podem sentir que estão prontos para algo mais significativo e espiritual.</horoscopeLoveJan>

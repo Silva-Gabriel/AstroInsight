@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <nav class="navbar nav-underline navbar-expand-lg">
+    <nav class="navbar nav-underline navbar-expand-sm">
         <div class="container-fluid">
-            <a class="navbar-brand" href="<?php $_SERVER['PHP_SELF'] ?>"><img class="home-icon" src="../imgs/cancer.png" alt="Logo" width="65" height="50" class="d-inline-block align-text-center">AstroInsight</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="navbar-brand" href="<?php $_SERVER['PHP_SELF'] ?>"><img class="home-icon" src="../imgs/cancer.png" alt="Logo" width="55" height="40" class="d-inline-block align-text-center">AstroInsight</a>
+            <div class="collapse navbar-collapse" style="height: 30px;" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <ul class="nav nav-underline">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.php">Página Inicial</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="horoscope.php">Horóscopo</a>
@@ -30,38 +30,40 @@
                     </ul>
                 </ul>
                 <form id="signo-form" method="POST" action="show_zodiac_sign.php" class="d-flex" role="search">
-                    <input class="form-control me-2" id="data_nascimento" name="data_nascimento" type="search" placeholder="dd/mm/yyyy" maxlength="10" aria-label="Search">
-                    <button class="btn btn-dark" type="submit">Search</button>
+                    <input class="form-control form-control-sm me-2" id="data_nascimento" name="data_nascimento" type="search" placeholder="dd/mm/yyyy" maxlength="10" aria-label="Search">
+                    <button class="btn btn-dark btn-sm" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
-    <div class="agua">
-        <h3>Water</h3>
-        <img src="../imgs/home-câncer.png" width="64" height="64" alt="logo câncer home">
-        <img src="../imgs/home-escorpião.png" width="60" height="60" alt="logo escorpião home">
-        <img src="../imgs/home-peixes.png" width="58" height="58" alt="logo peixes home">
-    </div>
-    <div class="fogo">
-        <h3>Fire</h3>
-        <img src="../imgs/home-sagitário.png" width="50" height="50" alt="logo sagitário home">
-        <img src="../imgs/home-áries.png" width="50" height="50" alt="logo áries home">
-        <img src="../imgs/home-leão.png" width="68" height="68" alt="logo leão home">
-    </div>
-    <div class="terra">
-        <h3>Earth</h3>
-        <img src="../imgs/home-touro.png" width="54" height="54" alt="logo touro home">
-        <img src="../imgs/home-virgem.png" width="50" height="50" alt="logo virgem home">
-        <img src="../imgs/home-capricórnio.png" width="50" height="50" alt="logo capricórnio home">
-    </div>
-    <div class="ar">
-        <h3>Air</h3>
-        <img src="../imgs/home-gêmeos.png" width="54" height="54" alt="logo gêmeos home">
-        <img src="../imgs/home-libra.png" width="58" height="58" alt="logo libra home">
-        <img src="../imgs/home-aquário.png" width="50" height="50" alt="logo aquário home">
-    </div>
     <section class="intro">
         <div class="container">
+            <div class="elements">
+                <div class="agua">
+                    <h3>Water</h3>
+                    <img src="../imgs/home-câncer.png" width="52" height="52" alt="logo câncer home">
+                    <img src="../imgs/home-escorpião.png" width="52" height="52" alt="logo escorpião home">
+                    <img src="../imgs/home-peixes.png" width="52" height="52" alt="logo peixes home">
+                </div>
+                <div class="fogo">
+                    <h3>Fire</h3>
+                    <img src="../imgs/home-sagitário.png" width="52" height="52" alt="logo sagitário home">
+                    <img src="../imgs/home-áries.png" width="52" height="52" alt="logo áries home">
+                    <img src="../imgs/home-leão.png" width="52" height="52" alt="logo leão home">
+                </div>
+                <div class="terra">
+                    <h3>Earth</h3>
+                    <img src="../imgs/home-touro.png" width="52" height="52" alt="logo touro home">
+                    <img src="../imgs/home-virgem.png" width="52" height="52" alt="logo virgem home">
+                    <img src="../imgs/home-capricórnio.png" width="52" height="52" alt="logo capricórnio home">
+                </div>
+                <div class="ar">
+                    <h3>Air</h3>
+                    <img src="../imgs/home-gêmeos.png" width="52" height="52" alt="logo gêmeos home">
+                    <img src="../imgs/home-libra.png" width="52" height="52" alt="logo libra home">
+                    <img src="../imgs/home-aquário.png" width="52" height="52" alt="logo aquário home">
+                </div>
+            </div>
             <div class="signos">
                 <h2>O que são Signos?</h2>
                 <p>Os signos são doze divisões do zodíaco, cada uma representando uma faixa de 30 graus da eclíptica, que é o caminho aparente do Sol através do céu ao longo do ano. Cada signo é associado a certas características e traços de personalidade, e eles são usados para criar horóscopos que oferecem insights sobre a personalidade e os eventos futuros.</p>
@@ -84,18 +86,17 @@
                 </div>
                 <div class="elementos-1">
                     <h2>Fogo</h2>
-                    <p>O elemento Fogo simboliza energia, entusiasmo e transformação. Assim como o fogo é intenso e pode iluminar ou destruir, os signos de Fogo são apaixonados e têm uma abordagem ardente e dinâmica em relação à vida. Eles são conhecidos por sua vitalidade e impulso.</p>
+                    <p>O elemento Fogo simboliza energia, entusiasmo e transformação. Assim como o fogo é intenso e pode iluminar ou destruir, os signos de Fogo são apaixonados e têm uma abordagem ardente e dinâmica em relação à vida. Eles são conhecidos por sua vitalidade e impulso, sendo eles: Áries, Leão e Sagitário.</p>
                     <h2>Terra</h2>
-                    <p>O elemento Terra representa praticidade, estabilidade e solidez. Assim como a terra fornece uma base firme e é essencial para o crescimento das plantas, os signos de Terra são confiáveis e estruturados, oferecendo suporte e realismo em suas abordagens. Eles valorizam a segurança e a consistência.</p>
+                    <p>O elemento Terra representa praticidade, estabilidade e solidez. Assim como a terra fornece uma base firme e é essencial para o crescimento das plantas, os signos de Terra são confiáveis e estruturados, oferecendo suporte e realismo em suas abordagens. Eles valorizam a segurança e a consistência, sendo eles: Touro, Virgem e Capricórnio.</p>
                 </div>
                 <div class="elementos-2">
                     <h2>Ar</h2>
-                    <p>O elemento Ar é associado à comunicação, intelecto e movimento. Assim como o ar é invisível, mas essencial para a vida e está em constante movimento, os signos de Ar são comunicativos, curiosos e adaptáveis. Eles valorizam a liberdade mental e a troca de ideias.</p>
+                    <p>O elemento Ar é associado à comunicação, intelecto e movimento. Assim como o ar é invisível, mas essencial para a vida e está em constante movimento, os signos de Ar são comunicativos, curiosos e adaptáveis. Eles valorizam a liberdade mental e a troca de ideias, sendo eles: Gêmeos, Libra e Aquário.</p>
                     <h2>Água</h2>
-                    <p>O elemento Água simboliza emoção, intuição e fluidez. Assim como a água pode se adaptar a qualquer forma e é essencial para a vida, os signos de Água são profundos e empáticos, capazes de se adaptar às emoções e de entender os sentimentos dos outros. Eles são conhecidos por sua sensibilidade e adaptabilidade.</p>
+                    <p>O elemento Água simboliza emoção, intuição e fluidez. Assim como a água pode se adaptar a qualquer forma e é essencial para a vida, os signos de Água são profundos e empáticos, capazes de se adaptar às emoções e de entender os sentimentos dos outros. Eles são conhecidos por sua sensibilidade e adaptabilidade, sendo eles: Câncer, Escorpião e Peixes.</p>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 </body>

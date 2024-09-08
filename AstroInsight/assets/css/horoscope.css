@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-    background-repeat: no-repeat;
-    height: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 20px;
+html, body {
+    background-color: whitesmoke;
+    padding: 0;
 }
+
 
 p {
     font-size: 18px;
@@ -19,7 +18,7 @@ p {
 
 h1 {
     text-align: center;
-    margin: 12px;
+    margin: 20px;
     text-shadow: 1px 2px 3px black;
 }
 
@@ -28,37 +27,65 @@ h2 {
     margin: 20px;
 }
 
+.navbar {
+    box-shadow: 1px 3px 8px black;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-repeat: no-repeat;
+}
+
+a.navbar-brand {
+    font-weight: bold;
+    text-shadow: 2px 3px 4px royalblue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.collapse {
+    margin: 10px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color:whitesmoke;
+    font-size: 20px;
+}
+
 /* Vida Amorosa: Cor vermelha, simboliza amor, paixão e romance. */
 .vida-amorosa {
     color: red;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Amizade: Cor azul, representa confiança, lealdade e tranquilidade. */
 .amizade {
-    color: rgb(0, 43, 233);
-    text-shadow: 2px 2px 2px black;
+    color: rgb(27, 125, 238);
+    text-shadow: 1px 1px 1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Profissional: Cor cinza, transmite seriedade, estabilidade e profissionalismo. */
 .profissional {
     color: rgb(196, 196, 196);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Saúde: Cor verde, simboliza frescor, vitalidade e equilíbrio. */
 .saude {
     color: rgb(20, 175, 20);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Família: Cor amarela, representa calor, alegria e otimismo. */
 .familia {
     color: yellow;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: whitesmoke;
 }
