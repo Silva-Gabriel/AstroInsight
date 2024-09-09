@@ -32,11 +32,6 @@
             exit;
         }
 
-        // Verificar se 'data_nascimento' está definido e não está vazio
-        if (!isset($_POST['data_nascimento']) || empty($_POST['data_nascimento'])) {
-            echo "Data de nascimento não fornecida.";
-            exit;
-        }
 
         // Receber a data de nascimento do usuário do formulário
         $dataNascimento = $_POST['data_nascimento'];

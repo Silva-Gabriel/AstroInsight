@@ -112,6 +112,34 @@ p {
     text-shadow: 2px 3px 4px whitesmoke;
 }
 
+/* Estilo para o cabeçalho do modal */
+.modal-header {
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    color: whitesmoke;
+    justify-content: space-between;
+  }
+
+.modal-header .close {
+    color:whitesmoke;
+}
+
+.modal-header .close:hover {
+    background-color: rgb(238, 59, 59);
+    opacity: 75%;
+}
+
+  /* Estilo para o rodapé do modal */
+  .modal-footer {
+    background-color: whitesmoke;
+  }
+
+  /* Estilo para o botão OK no rodapé */
+  .modal-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
 .nav-link:hover,
 .nav-link:focus{
     color: whitesmoke;
