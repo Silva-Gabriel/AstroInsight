@@ -29,7 +29,7 @@
                 </ul>
                 <form id="signo-form" method="POST" action="show_zodiac_sign.php" class="d-flex" role="search">
                     <input class="form-control form-control-sm me-2" id="data_nascimento" name="data_nascimento" type="search" placeholder="dd/mm/yyyy" maxlength="10" aria-label="Search">
-                    <button class="btn btn-dark btn-sm" type="submit">Search</button>
+                    <button class="btn btn-dark btn-sm" id="search-button" type="submit"><img class="search-img" src="../imgs/search-icon.png" width="30px"></button>
                 </form>
             </div>
         </div>
@@ -53,8 +53,9 @@
     }
 
     echo "<section>";
-    foreach ($xml->signo as $signo) {
-        if ($mesAtual == '01') {
+        foreach ($xml->signo as $signo) {
+        if ($mesAtual == '01') 
+        {
             ShowHoroscope($signo, $signo->horoscopeLoveJan, $signo->horoscopeFriendlyJan, $signo->horoscopeProfessionalJan, $signo->horoscopeFamilyJan, $signo->horoscopeHealthJan, $signo->horoscopeReflectiveJan);
         } else if ($mesAtual == '02') {
             ShowHoroscope($signo, $signo->horoscopeLoveFeb, $signo->horoscopeFriendlyFeb, $signo->horoscopeProfessionalFeb, $signo->horoscopeFamilyFeb, $signo->horoscopeHealthFeb, $signo->horoscopeReflectiveFeb);

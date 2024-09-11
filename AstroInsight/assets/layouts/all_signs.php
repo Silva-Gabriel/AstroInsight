@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar nav-underline navbar-expand-sm">
+    <nav class="navbar nav-underline navbar-expand-sm fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="<?php $_SERVER['PHP_SELF'] ?>"><img class="home-icon" src="../imgs/cancer.png" alt="Logo" width="55" height="40" class="d-inline-block align-text-center">AstroInsight</a>
             <div class="collapse navbar-collapse" style="height: 30px;" id="navbarSupportedContent">
@@ -29,7 +29,7 @@
                 </ul>
                 <form id="signo-form" method="POST" action="show_zodiac_sign.php" class="d-flex" role="search">
                     <input class="form-control form-control-sm me-2" id="data_nascimento" name="data_nascimento" type="search" placeholder="dd/mm/yyyy" maxlength="10" aria-label="Search">
-                    <button class="btn btn-dark btn-sm" type="submit">Search</button>
+                    <button class="btn btn-dark btn-sm" id="search-button" type="submit"><img class="search-img" src="../imgs/search-icon.png" width="30px"></button>
                 </form>
             </div>
         </div>

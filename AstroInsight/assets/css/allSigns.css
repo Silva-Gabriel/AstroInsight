@@ -35,6 +35,13 @@ a.navbar-brand {
     font-style: italic;
 }
 
+#search-button:hover .search-img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+    transition-delay: 0.2s;
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
 .collapse {
     margin: 10px;
 }

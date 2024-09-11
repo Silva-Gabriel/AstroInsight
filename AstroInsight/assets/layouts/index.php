@@ -31,14 +31,15 @@
                 </ul>
                 <form id="signo-form" method="POST" action="show_zodiac_sign.php" class="d-flex" role="search">
                     <input class="form-control form-control-sm me-2" id="data_nascimento" name="data_nascimento" type="search" placeholder="dd/mm/yyyy" maxlength="10" aria-label="Search">
-                    <button class="btn btn-dark btn-sm" type="submit">Search</button>
+                    <button class="btn btn-dark btn-sm" id="search-button" type="submit"><img class="search-img" src="../imgs/search-icon.png" width="30px"></button>
                 </form>
                 <!-- Modal -->
-                <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+                <div class="modal fade" id="alertModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-md" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="alertModalLabel">Atenção</h5>
+                                <img src="../imgs/attention-icon.png" width="30px">
+                                <h4 class="modal-title" id="alertModalLabel">AÇÃO NECESSÁRIA!</h4>
                                 <button type="button" class="close btn btn-md" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -47,14 +48,11 @@
                                 Por favor, insira uma data de nascimento válida.
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary btn-md" data-dismiss="modal">OK</button>
+                                <button type="button" class="btn btn-success btn-md" data-dismiss="modal">OK</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </nav>

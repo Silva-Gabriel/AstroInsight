@@ -53,7 +53,13 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    
+}
+
+#search-button:hover .search-img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+    transition-delay: 0.2s;
+    transform: scale(1.2);
+    filter: brightness(1.2);
 }
 
 .agua {
@@ -116,9 +122,10 @@ p {
 .modal-header {
     display: flex;
     background-color: rgb(53, 53, 53);
-    color: whitesmoke;
+    color: rgb(221, 9, 9);
     justify-content: space-between;
-  }
+    align-items: end;
+}
 
 .modal-header .close {
     color:whitesmoke;
@@ -127,6 +134,12 @@ p {
 .modal-header .close:hover {
     background-color: rgb(238, 59, 59);
     opacity: 75%;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
 }
 
   /* Estilo para o rodapé do modal */
