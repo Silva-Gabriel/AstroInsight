@@ -17,13 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
         inputData.value = valor;
     });
 });
-
-// Lógica para mostrar modal ao tentar enviar o formulário sem a data
-document.getElementById('signo-form').addEventListener('submit', function(event) {
-    var dataNascimento = document.getElementById('data_nascimento').value.trim();
-
-    if (!dataNascimento) {
-        event.preventDefault();
-        $('#alertModal').modal('show');
-    }
-});

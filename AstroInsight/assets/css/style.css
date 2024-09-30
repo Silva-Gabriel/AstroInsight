@@ -158,16 +158,12 @@ h4 {
     color: whitesmoke;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1140px){
     .elements {
         display: none;
     }
 
-    .navbar-brand {
-        display: none;
-    }
-
-    .navbar {
+    .nav-link {
         display: none;
     }
 }

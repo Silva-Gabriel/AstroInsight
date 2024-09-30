@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link type="image/png" sizes="54x54" rel="icon" href="../imgs/cancer-icon.png">
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
@@ -27,6 +26,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'all_signs.php' ? 'active' : ''; ?>" aria-current="page" href="all_signs.php">Ver Todos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'show_zodiac_sign.php' ? 'active' : 'disabled'; ?>" aria-current="page" href="all_signs.php">Resultado</a>
                         </li>
                     </ul>
                 </ul>
