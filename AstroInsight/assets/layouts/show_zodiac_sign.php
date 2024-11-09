@@ -13,6 +13,8 @@
 <body>
     <?php include('header.php');
 
+    date_default_timezone_set('America/Sao_Paulo');
+
     // Função para converter data para o formato DateTime com um ano específico
     function convertToDate($dateString, $year)
     {
@@ -36,17 +38,17 @@
     // Receber a data de nascimento do usuário do formulário
     $dataNascimento = $_POST['data_nascimento'];
 
-    // Tentar criar um objeto DateTime com a data fornecida
+    $dataAtual = new DateTime();
+    $dataNascimentoFormatada = new DateTime($dataNascimento);
     $dataNascimentoObj = DateTime::createFromFormat('d/m/Y', $dataNascimento);
     $errors = DateTime::getLastErrors();
-    if (is_array($errors)) {
-        if ($dataNascimentoObj === false || $errors['warning_count'] > 0 || $errors['error_count'] > 0) {
-            echo "<script>$('#alertModal').modal('show');</script>";
-            echo "<script>$('#alertModal').on('hidden.bs.modal', function () {
-                window.history.back();
-            });</script>";
-            exit;
-        }
+
+    if (($dataNascimentoObj === false || $dataNascimentoFormatada > $dataAtual || is_array($errors))) {
+        echo "<script>$('#alertModal').modal('show');</script>";
+        echo "<script>$('#alertModal').on('hidden.bs.modal', function () {
+            window.history.back();
+        });</script>";
+        exit;
     }
 
     $signoEncontrado = null;
