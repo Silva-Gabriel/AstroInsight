@@ -1,6 +1,25 @@
 # AstroInsight Site
 ### Imagens da última atualização de Desenvolvimento
-![image](https://github.com/user-attachments/assets/daf16057-f56d-4146-bad7-65d09f8a0386)
-![image](https://github.com/user-attachments/assets/38e3b3e7-0c78-4e87-93e5-90a9d6542dda)
-![image](https://github.com/user-attachments/assets/2d159f09-a451-4a56-a18f-9d0bd64e28b7)
-![image](https://github.com/user-attachments/assets/5bd79303-f0a1-42fd-a796-92d4bac59cdf)
+
+#### Tela principal:
+
+![image](https://github.com/user-attachments/assets/66629ab1-8513-4092-acf1-1752849d0b73)
+
+#### Data de nascimento inválida (toast):
+
+![image](https://github.com/user-attachments/assets/1bcc66e4-d1ee-46d8-85d3-8c221d576588)
+
+
+#### Horóscopo:
+
+![image](https://github.com/user-attachments/assets/82cf099d-d1b6-4d9d-96bc-98191aa79de1)
+
+#### Ver Todos:
+
+![image](https://github.com/user-attachments/assets/fdeee8bc-a353-4ca3-960c-a4ed9d8a291f)
+
+#### Resultado da consulta:
+
+![image](https://github.com/user-attachments/assets/971cb63a-6729-455b-b106-e761480cee9e)
+
+#### Observação: Algumas datas ainda não passam na validação, porém isso será corrigido nas próximas versões, caso haja.
