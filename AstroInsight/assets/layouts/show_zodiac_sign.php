@@ -68,21 +68,33 @@
             break;
         }
     }
-
-    if ($signoEncontrado !== null) {
-
-        $caminhoImagem = "../imgs/" . strtolower($signoEncontrado->signoNome) . "-icon.png";
-
-        echo "<h1>Seu signo é: " . htmlspecialchars($signoEncontrado->signoNome) . "</h1>";
-        echo "<img src='" . htmlspecialchars($caminhoImagem) . "' alt='Imagem do signo " . htmlspecialchars($signoEncontrado->signoNome) . "'>";
-        echo "<p><strong>Data de Início:</strong> " . htmlspecialchars($signoEncontrado->dataInicio) . "</p>";
-        echo "<p><strong>Data de Fim:</strong> " . htmlspecialchars($signoEncontrado->dataFim) . "</p>";
-        echo "<p><strong>Descrição:</strong> " . htmlspecialchars($signoEncontrado->descricao) . "</p>";
-    } else {
-        echo "<h1>Não foi possível determinar o signo.</h1>";
-    }
-
     ?>
+
+    <div class="wrapper">
+        <?php
+        if ($signoEncontrado !== null) {
+            $caminhoImagem = "../imgs/" . strtolower($signoEncontrado->signoNome) . "-icon.png";
+        ?>
+
+            <div class="signo-container">
+                <h1 class="signo-titulo"><b>Seu signo é <?php echo htmlspecialchars($signoEncontrado->signoNome); ?></b></h1>
+                <div class="signo-info">
+                    <img src="<?php echo htmlspecialchars($caminhoImagem); ?>"
+                        alt="Imagem do signo <?php echo htmlspecialchars($signoEncontrado->signoNome); ?>"
+                        class="signo-imagem">
+                    <div class="signo-detalhes">
+                        <p><strong>Data de Início:</strong> <?php echo htmlspecialchars($signoEncontrado->dataInicio); ?></p>
+                        <p><strong>Data de Fim:</strong> <?php echo htmlspecialchars($signoEncontrado->dataFim); ?></p>
+                        <p><strong>Descrição:</strong> <?php echo htmlspecialchars($signoEncontrado->descricao); ?></p>
+                    </div>
+                </div>
+            </div>
+
+        <?php
+        }
+        ?>
+    </div>
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const forms = document.querySelectorAll('form');
